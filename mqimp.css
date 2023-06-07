@@ -1,0 +1,32 @@
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+article::after {
+    content: 'Esse artigo foi impresso por Thauan';
+}
+
+header h1 {
+    font-size: 2.5em;
+    background-color: slategray;
+    text-align: center;
+}
+
+article {
+    width: 700px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-align: justify;
+}
